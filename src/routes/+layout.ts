@@ -1,5 +1,5 @@
 // import * as db from '$lib/server/database';
-import type { IStore } from '../../interfaces';
+import type { IStore } from '../interfaces';
 import type { LayoutLoad } from './$types';
 
 export const load: LayoutLoad = async () => {

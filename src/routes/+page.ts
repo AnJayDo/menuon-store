@@ -1,8 +1,11 @@
-import { redirect } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
+import { foods, categories, tags } from '../lib/data';
+export const prerender = true;
 
-export const load = (({ params }) => {
-	if (!params?.store) {
-		throw redirect(307, '/stumble');
-	}
-}) satisfies PageLoad;
+export const load: PageLoad = () => {
+	return {
+		foods,
+		categories,
+		tags
+	};
+};

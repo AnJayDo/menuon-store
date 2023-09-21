@@ -13,9 +13,11 @@
 </script>
 
 <div class="food-item">
-	<img class="rounded-lg object-cover aspect-video" src={'/foods/' + foodItem.imageSrc} alt="" />
+	{#if foodItem.imageSrc.length}
+		<img class="rounded-lg object-cover aspect-video" src={'/foods/' + foodItem.imageSrc} alt="" />
+	{/if}
 	<div class="relative">
-		<div class="absolute top-3 right-3">{foodItem.size}</div>
+		<!-- <div class="absolute top-3 right-3">{foodItem.size}</div> -->
 		<h1 class="text-2xl font-bold">{foodItem.name}</h1>
 		<p>{foodItem.description}</p>
 		<!-- <div class="flex flex-wrap">
@@ -36,6 +38,8 @@
 
 <style lang="postcss">
 	.food-item {
+		@apply py-2 px-3 rounded bg-white;
+
 		.price-tag {
 			.line-through {
 				font-size: 80%;
