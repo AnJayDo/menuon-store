@@ -9,6 +9,7 @@ export const load: LayoutLoad = async () => {
 			slug: 'stumble',
 			avatar: '/avatar.jpg',
 			cover: '/cover.jpg',
+			qrCode: '/stumble.menuon.site.svg',
 			phoneNumber: '0988878880',
 			location: '57 Lý Tự Trọng, Da Nang, Vietnam',
 			wifiName: 'Izakaya Stumble',

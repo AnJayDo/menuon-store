@@ -14,7 +14,7 @@
 
 <div class="food-item">
 	{#if foodItem.imageSrc.length}
-		<img class="rounded-lg object-cover aspect-video" src={'/foods/' + foodItem.imageSrc} alt="" />
+		<img class="rounded-lg object-cover aspect-video" src={foodItem.imageSrc} alt="" />
 	{/if}
 	<div class="relative">
 		<!-- <div class="absolute top-3 right-3">{foodItem.size}</div> -->
