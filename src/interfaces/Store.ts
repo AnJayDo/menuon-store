@@ -6,6 +6,7 @@ interface IStore {
 	qrCode: string;
 	phoneNumber: string;
 	location: string;
+	locationHref?: string;
 	wifiName: string;
 	wifiPassword: string;
 	description: string;

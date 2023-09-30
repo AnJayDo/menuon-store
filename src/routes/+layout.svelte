@@ -11,6 +11,7 @@
 <svelte:head>
 	<title>{storeData.name}</title>
 	<meta name="description" content={storeData.description} />
+	<link rel="icon" type="image/png" href={storeData.avatar} />
 </svelte:head>
 
 <div class="app">

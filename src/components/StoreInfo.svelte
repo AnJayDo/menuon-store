@@ -42,7 +42,13 @@
 	</div>
 	<div class="flex flex-col items-center md:items-start pb-3">
 		<h1>{storeData.name}</h1>
-		<a href={'http://maps.google.com/?q=' + storeData.location} target="_blank" class="info-row">
+		<a
+			href={storeData.locationHref
+				? storeData.locationHref
+				: 'http://maps.google.com/?q=' + storeData.location}
+			target="_blank"
+			class="info-row"
+		>
 			<MapPin class="icon" size={iconSize} />
 			{storeData.location}
 		</a>
