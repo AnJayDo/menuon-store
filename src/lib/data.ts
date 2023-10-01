@@ -255,9 +255,9 @@ export const foods: IFoodItem[] = [
 	},
 	{
 		name: 'Gyudon Raw Egg',
-		description: 'Cơm, bò, hành tây, raw egg',
+		description: 'Cơm, bò, hành tây, trứng gà Nhật',
 		size: '300g',
-		imageSrc: '/foods/gyudon.jpg',
+		imageSrc: '',
 		originalPrice: 0,
 		price: 130,
 		tags: ['5'],
