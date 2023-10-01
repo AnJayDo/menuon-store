@@ -197,13 +197,12 @@ export const foods: IFoodItem[] = [
 		name: 'Skewer',
 		description: 'Xiên gà',
 		size: '300g',
-		imageSrc: '',
+		imageSrc: '/foods/yakitori.jpg',
 		originalPrice: 0,
 		price: 25,
 		tags: ['4'],
 		categories: ['1']
 	},
-
 	{
 		name: 'Raw egg rice',
 		description: 'Cơm, lòng đỏ sống trứng gà Nhật + canh miso',
@@ -485,31 +484,31 @@ export const tags: ITag[] = [
 	{
 		id: '1',
 		name: 'Small dishes',
-		imageSrc: '/foods/stumble_s_tofu.jpg',
+		imageSrc: '/foods/small_dish.jpg',
 		categories: ['1']
 	},
 	{
 		id: '2',
 		name: 'To share',
-		imageSrc: '/foods/dau_hu_tu_xuyen.jpg',
+		imageSrc: '/foods/to_share.jpg',
 		categories: ['1']
 	},
 	{
 		id: '3',
 		name: 'Deep fried',
-		imageSrc: '/foods/karaage.jpg',
+		imageSrc: '/foods/deep_fried.jpg',
 		categories: ['1']
 	},
 	{
 		id: '4',
 		name: 'Yakitori',
-		imageSrc: '/foods/yakitori.jpg',
+		imageSrc: '/foods/yakitori_bg.jpg',
 		categories: ['1']
 	},
 	{
 		id: '5',
 		name: 'Main dishes',
-		imageSrc: '/foods/care_katsu.jpg',
+		imageSrc: '/foods/main_dish.jpg',
 		categories: ['1']
 	},
 	{
