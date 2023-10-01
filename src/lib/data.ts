@@ -210,7 +210,7 @@ export const foods: IFoodItem[] = [
 		size: '300g',
 		imageSrc: '',
 		originalPrice: 0,
-		price: 70,
+		price: 90,
 		tags: ['5'],
 		categories: ['1']
 	},
@@ -235,7 +235,17 @@ export const foods: IFoodItem[] = [
 		categories: ['1']
 	},
 	{
-		name: 'Gyudon',
+		name: 'Gyudon Mozzarella',
+		description: 'Cơm, bò, hành tây, mozzarella',
+		size: '300g',
+		imageSrc: '', //foods/mozzarella_beef.jpg
+		originalPrice: 0,
+		price: 120,
+		tags: ['5'],
+		categories: ['1']
+	},
+	{
+		name: 'Gyudon Kimchi',
 		description: 'Cơm, bò, hành tây, kimchi',
 		size: '300g',
 		imageSrc: '/foods/gyudon.jpg',
@@ -245,12 +255,22 @@ export const foods: IFoodItem[] = [
 		categories: ['1']
 	},
 	{
+		name: 'Gyudon Raw Egg',
+		description: 'Cơm, bò, hành tây, raw egg',
+		size: '300g',
+		imageSrc: '/foods/gyudon.jpg',
+		originalPrice: 0,
+		price: 130,
+		tags: ['5'],
+		categories: ['1']
+	},
+	{
 		name: 'Curry katsudon',
 		description: 'Cơm, cà ri, khoai tây, cà rốt, thăn heo chiên xù',
 		size: '300g',
 		imageSrc: '/foods/care_katsu.jpg',
 		originalPrice: 0,
-		price: 120,
+		price: 130,
 		tags: ['5'],
 		categories: ['1']
 	},
@@ -265,6 +285,16 @@ export const foods: IFoodItem[] = [
 		categories: ['1']
 	},
 	{
+		name: 'Kimchi hotpot',
+		description: 'Kimchi, ba chỉ bò, đậu hủ',
+		size: '300g',
+		imageSrc: '',
+		originalPrice: 0,
+		price: 150,
+		tags: ['5'],
+		categories: ['1']
+	},
+	{
 		name: 'Miso soup',
 		description: 'Sốt miso, đậu hủ, rong biển',
 		size: '300g',
@@ -275,12 +305,12 @@ export const foods: IFoodItem[] = [
 		categories: ['1']
 	},
 	{
-		name: 'Kimchi hotpot',
-		description: 'Kimchi, ba chỉ bò, đậu hủ',
+		name: 'Cơm trắng',
+		description: '',
 		size: '300g',
 		imageSrc: '',
 		originalPrice: 0,
-		price: 150,
+		price: 20,
 		tags: ['6'],
 		categories: ['1']
 	},
@@ -367,7 +397,7 @@ export const foods: IFoodItem[] = [
 		categories: ['1']
 	},
 	{
-		name: 'G &amp; T',
+		name: 'Gin & Tonic',
 		description: 'Sui Gin | Tonic | Lime',
 		size: '300g',
 		imageSrc: '',
@@ -377,7 +407,7 @@ export const foods: IFoodItem[] = [
 		categories: ['1']
 	},
 	{
-		name: 'Umeshu &amp; Tonic',
+		name: 'Umeshu & Tonic',
 		description: 'Umeshu | Tonic | Lime',
 		size: '300g',
 		imageSrc: '',
@@ -387,7 +417,7 @@ export const foods: IFoodItem[] = [
 		categories: ['1']
 	},
 	{
-		name: 'Jack &amp; Coke',
+		name: 'Jack & Coke',
 		description: 'Jack Daniel | Lime | Coke',
 		size: '300g',
 		imageSrc: '',
@@ -455,7 +485,7 @@ export const tags: ITag[] = [
 	{
 		id: '1',
 		name: 'Small dishes',
-		imageSrc: '/foods/pan_fry_chicken.jpg',
+		imageSrc: '/foods/stumble_s_tofu.jpg',
 		categories: ['1']
 	},
 	{
@@ -479,38 +509,38 @@ export const tags: ITag[] = [
 	{
 		id: '5',
 		name: 'Main dishes',
-		imageSrc: '/foods/care_udon.jpg',
+		imageSrc: '/foods/care_katsu.jpg',
 		categories: ['1']
 	},
 	{
 		id: '6',
 		name: 'Other',
-		imageSrc: '/foods/stumble_s_tofu.jpg',
+		imageSrc: '/foods/other.jpg',
 		categories: ['1']
 	},
 
 	{
 		id: '7',
 		name: 'Beer',
-		imageSrc: '/foods/tsingtao.jpg',
+		imageSrc: '/foods/beer.jpg',
 		categories: ['2']
 	},
 	{
 		id: '8',
 		name: 'Shot | Bottle ',
-		imageSrc: '',
+		imageSrc: '/foods/shot.jpg',
 		categories: ['2']
 	},
 	{
 		id: '9',
 		name: 'Classic Cocktail',
-		imageSrc: '',
+		imageSrc: '/foods/cocktail.jpg',
 		categories: ['2']
 	},
 	{
 		id: '10',
 		name: 'Soft drink',
-		imageSrc: '',
+		imageSrc: '/foods/soft_drink.jpg',
 		categories: ['2']
 	}
 ];
