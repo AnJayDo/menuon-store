@@ -7,7 +7,7 @@ export const foods: IFoodItem[] = [
 		size: '300g',
 		imageSrc: '',
 		originalPrice: 0,
-		price: 40,
+		price: 50,
 		tags: ['1'],
 		categories: ['1']
 	},
@@ -78,6 +78,16 @@ export const foods: IFoodItem[] = [
 		imageSrc: '',
 		originalPrice: 0,
 		price: 20,
+		tags: ['1'],
+		categories: ['1']
+	},
+	{
+		name: 'Takowasa',
+		description: '',
+		size: '',
+		imageSrc: '',
+		originalPrice: 0,
+		price: 80,
 		tags: ['1'],
 		categories: ['1']
 	},
